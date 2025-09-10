@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/project2/static/css/main.14dc7140.css",
+    "main.js": "/project2/static/js/main.a145a441.js",
+    "static/js/453.7252f12d.chunk.js": "/project2/static/js/453.7252f12d.chunk.js",
+    "static/media/upvcdoors.jpg": "/project2/static/media/upvcdoors.952b25915c9bcad98619.jpg",
+    "static/media/angel logo.png": "/project2/static/media/angel logo.054651fd6b9ae992a854.png",
+    "static/media/Illustration.png": "/project2/static/media/Illustration.0f78e60ee1b32404db6f.png",
+    "index.html": "/project2/index.html",
+    "main.14dc7140.css.map": "/project2/static/css/main.14dc7140.css.map",
+    "main.a145a441.js.map": "/project2/static/js/main.a145a441.js.map",
+    "453.7252f12d.chunk.js.map": "/project2/static/js/453.7252f12d.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.14dc7140.css",
+    "static/js/main.a145a441.js"
+  ]
+}
