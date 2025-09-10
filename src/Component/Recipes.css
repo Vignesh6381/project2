@@ -1,0 +1,27 @@
+.img3 {
+    width: 70px;
+    height: 70px;
+    border-radius: 20px;
+}
+
+.api1 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.c1 {
+    font-size: 20px;
+}
+
+.api {
+    display: flex;
+    justify-content: center;
+    column-gap: 10px;
+    padding: 3px;
+    background-color: white;
+    /* border: 4px solid yellowgreen; */
+    width: fit-content;
+    border-radius: 10px;
+    margin: 20px;
+  box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
+}

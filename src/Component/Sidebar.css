@@ -1,0 +1,83 @@
+/* Sidebar.css */
+
+/* Base Sidebar Styling */
+.sidebar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100vh;
+  width: 50px;
+  background-color: #f8f9fa;
+  transition: width 0.3s ease;
+  z-index: 1000;
+  overflow-x: hidden;
+  box-shadow: 2px 0 5px rgba(0, 0, 0, 0.1);
+}
+
+/* Expanded Sidebar */
+.sidebar.expanded {
+  width: 200px;
+}
+
+/* Sidebar Nav Link */
+.sidebar .nav-link {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  color: #333;
+  text-decoration: none;
+}
+
+.sidebar .label {
+  white-space: nowrap;
+}
+
+/* Toggle Button (hamburger icon) */
+.menu-toggle {
+  position: fixed;
+  top: 10px;
+  left: 10px;
+  z-index: 1100;
+  border: none;
+  font-size: 20px;
+}
+
+/* Overlay (on mobile when sidebar is open) */
+.sidebar-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100vh;
+  width: 100vw;
+  background-color: rgba(0, 0, 0, 0.4);
+  z-index: 999;
+}
+
+/* Main Content */
+.main-content {
+  margin-left: 60px;
+  padding: 20px;
+  transition: margin-left 0.3s ease;
+}
+
+/* When sidebar is expanded on large screens */
+@media (min-width: 768px) {
+  .sidebar.expanded + .main-content {
+    margin-left: 200px;
+  }
+
+  .sidebar-overlay {
+    display: none;
+  }
+}
+
+/* On mobile, keep sidebar floating (no content push) */
+@media (max-width: 767px) {
+  .main-content {
+    margin-left: 0;
+  }
+
+  .sidebar.expanded {
+    width: 200px;
+  }
+}
